@@ -1,0 +1,41 @@
+
+/* -------------------------Skills Section---------------------- */
+
+.skills {
+  padding-bottom: 92px;
+}
+.skills_essence {
+  max-width: 911px;
+  width: 100%;
+}
+.skills_title {
+  margin-bottom: 54px;
+}
+.skills_list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 29px;
+}
+.skills_item {
+  max-width: 184px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.skills_value {
+  font-family: 'Museo Sans 100';
+  font-size: 13px;
+  line-height: 16px;
+  width: 61px;
+  height: 61px;
+  border-radius: 50px;
+  border: 1px solid #204D15;
+  outline: 1px solid #C6D6BB;
+  outline-offset: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.value_title {
+  margin-left: 26px;
+}

@@ -1,0 +1,77 @@
+
+/* ----------------------Job Header-------------------- */
+
+.header {
+  background: url(../img/man_in_the_forest.jpg)  no-repeat center center / cover;
+  padding: 50px 0 82px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+.navigation {
+  justify-content: space-between;
+  margin-bottom: 290px;
+}
+.logo {
+  cursor: pointer;
+}
+.logo_essence {
+  text-transform: uppercase;
+  font-size: 17px;
+  line-height: 20px;
+}
+.my {
+  font-family: 'Museo Sans 100';
+}
+.portfolio {
+  font-family: 'Museo Sans 900';
+}
+.nav {
+  max-width: 253px;
+  width: 100%;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu_item {
+  font-family: 'Museo Sans 900';
+  text-transform: uppercase;
+  line-height: 18px;
+}
+.info {
+  font-family: 'Museo Sans 100';
+  font-size: 13px;
+  line-height: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  padding-top: 2px;
+}
+.job {
+}
+.job_title {
+  letter-spacing: 0.05em;
+  margin-bottom: 19px;
+}
+.job p {
+  font-family: 'Museo Sans 100';
+  font-size: 29px;
+  line-height: 35px;
+  text-transform: uppercase;
+  margin-bottom: 301px;
+}
+.arrow_down {
+  position: absolute;
+  transform: translate(-50%);
+  left: 50%;
+  bottom: 60px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
