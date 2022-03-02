@@ -6,7 +6,7 @@
 /* 768-992px */
 @media screen and (max-width: 992px) {
   .header {
-    background-position: -66vw center;
+    background-position: -60vw center;
   }
   .container {
     width: 700px;
@@ -113,14 +113,29 @@
 /* 320-576px  */
 @media screen and (max-width: 576px) {
   .header {
-    background-position: -150vw center;
+    background-position: -45vw center;
+    padding: 28px 0 66px;
   }
   .container {
     width: 90%;
   }
+  .navigation {
+    margin-bottom: 60px;
+  }
+  .job {
+    margin-bottom: 105px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .job p {
+    font-size: 20px;
+    width: 200px;
+    margin: 0 auto;
+}
   .menu {
     position: absolute;
-    top: 10%;
+    top: 13%;
     left: 5%;
     width: 90%;
   }
