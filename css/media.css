@@ -5,6 +5,9 @@
 }
 /* 768-992px */
 @media screen and (max-width: 992px) {
+  .header {
+    background-position: -66vw center;
+  }
   .container {
     width: 700px;
   }
@@ -42,6 +45,7 @@
   }
   .works_item_wrap {
     width: 30%;
+    height: 210px;
   }
   .img_content_title {
     font-size: 12px;
@@ -89,6 +93,10 @@
     margin-left: 4px;
     margin-right: 4px;
   }
+  .works_item_wrap {
+    width: 30%;
+    height: 156px;
+  }
   .img_content_title {
     font-size: 10px;
     line-height: 6px;
@@ -104,6 +112,9 @@
 }
 /* 320-576px  */
 @media screen and (max-width: 576px) {
+  .header {
+    background-position: -150vw center;
+  }
   .container {
     width: 90%;
   }
@@ -163,6 +174,7 @@
     max-width: 300px;
     width: 100%;
     margin: 0 auto 20px;
+    height: 300px;
   }
   .img {
     height: 300px;

@@ -2,7 +2,7 @@
 /* ---------------------------About SEction---------------------- */
 
 .about {
-padding: 85px 0 55px;
+padding: 85px 0 27px;
 }
 .about_me_title {
   margin-bottom: 69px;
@@ -44,32 +44,37 @@ padding: 85px 0 55px;
 .block {
   max-width: 104px;
   width: 100%;
-  height: 155px;
 }
 .value {
+  position: relative;
+}
+.value::after {
+  position: absolute;
+  content: '';
   width: 73px;
   height: 73px;
-  outline: 1px solid #C6D6BB;
-  outline-offset: -8px;
   border: 1px solid #204D15;
   transform: rotate(45deg);
-  transform-origin: 36% 87%;
+  bottom: -100%;
+  left: 14%;
 }
-.value > div {
+.value::before {
+  position: absolute;
+  content: '';
+  width: 60px;
+  height: 60px;
+  border: 1px solid #C6D6BB;
+  transform: rotate(45deg);
+  bottom: -73%;
+  left: 20%;
+}
+.value span {
   font-family: 'Museo Sans 100';
   font-size: 20px;
   line-height: 24px;
-  position: relative;
-  transform: rotate(-45deg);
-}
-.value_75 {
-  transform-origin: 72% -25%;
-}
-.value_154 {
-  transform-origin: 75% 0%;
-}
-.value_8 {
-  transform-origin: 68% -45%;
+  margin: 38px 0 65px;
+  text-align: center;
+  display: block;
 }
 .projects_title {
   
@@ -88,8 +93,10 @@ padding: 85px 0 55px;
   width: 100%;
 }
 .connect {
+  max-width: 450px;
+  width: 100%;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 19px;
 }
 .connect_title {
 
@@ -129,4 +136,5 @@ padding: 85px 0 55px;
 }
 .connect_invite p {
   color: #204D15;
+  line-height: 17px;
 }

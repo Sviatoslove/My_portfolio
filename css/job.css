@@ -47,6 +47,7 @@
   padding-top: 2px;
 }
 .job {
+  margin-bottom: 301px;
 }
 .job_title {
   letter-spacing: 0.05em;
@@ -57,7 +58,6 @@
   font-size: 29px;
   line-height: 35px;
   text-transform: uppercase;
-  margin-bottom: 301px;
 }
 .arrow_down {
   position: absolute;

@@ -1,5 +1,9 @@
+
 /* -----------Specification------------- */
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Museo Sans 300', Geneva, sans-serif;
   font-size: 15px;
@@ -96,8 +100,6 @@ h6 {
   font-family: 'Museo Sans 100';
   font-size: 12px;
   line-height: 14px;
-  position: relative;
-  top: 35%;
   text-align: center;
   margin: 0 auto;
 }
